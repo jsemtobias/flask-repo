@@ -1,24 +1,23 @@
-# Ukázková aplikace ve Flasku
+# Flask Hello World Example
 
-Tento repozitář obsahuje jednoduchou ukázkovou aplikaci postavenou na webovém frameworku Flask. Aplikace slouží pouze k edukativním účelům a není určena pro reálné nasazení do produkce.
+Tento repozitář obsahuje ukázkovou aplikaci postavenou na frameworku Flask. Aplikace je velmi jednoduchá, slouží jako "Hello World" příklad a je určena pro edukativní účely.
 
-## Obsah repozitáře
-- `app/` – Kód aplikace ve Flasku.
-  - `__init__.py` – Inicializace aplikace.
-  - `routes.py` – Definice tras (routes).
-  - `templates/` – HTML šablony.
-    - `index.html` – Hlavní šablona aplikace.
-- `requirements.txt` – Seznam závislostí pro Python.
-- `run.py` – Spouštěcí skript pro aplikaci.
-- `.gitignore` – Soubory a složky, které budou ignorovány při verzování.
-  
-## Jak spustit aplikaci
+## Co je v repozitáři?
 
-### Předpoklady
-- Nainstalovaný Python 3.x
-- Nainstalovaný `pip` (Python package manager)
+- **app.py**: Hlavní soubor aplikace napsaný v Pythonu, který spouští jednoduchou Flask aplikaci.
+- **requirements.txt**: Seznam všech potřebných Python knihoven, které je třeba nainstalovat.
+- **.gitignore**: Soubor pro ignorování nežádoucích souborů při práci s Git.
+- **README.md**: Dokumentace o repozitáři a pokyny pro nastavení a spuštění aplikace.
 
-### Postup
-1. Naklonujte tento repozitář:
+## Jak aplikaci spustit?
+
+Tento repozitář je určen pouze pro edukativní účely a nejedná se o reálnou aplikaci. Je to jednoduchý "Hello World" příklad, který ukazuje, jak pracovat s frameworkem Flask.
+
+### Prerekvizity
+
+Před spuštěním aplikace se ujistěte, že máte nainstalovaný Python a nástroj `pip`.
+
+1. Nainstalujte si potřebné knihovny:
+
    ```bash
-   git clone https://github.com/jsemtobias/flask-repo.git
+   pip install -r requirements.txt
