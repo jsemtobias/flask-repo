@@ -21,4 +21,4 @@ Tento repozitář obsahuje jednoduchou ukázkovou aplikaci postavenou na webové
 ### Postup
 1. Naklonujte tento repozitář:
    ```bash
-   git clone https://github.com/vas-uzivatel/my-flask-example-repo.git
+   git clone https://github.com/jsemtobias/flask-repo.git
